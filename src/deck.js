@@ -1,5 +1,12 @@
+function createDeck(cards) {
+    return cards
+}
 
+function countCards(deck) {
+    return deck.length
+} 
 
-module.exports = {
+module.exports = { 
+    createDeck,
     countCards
 }
