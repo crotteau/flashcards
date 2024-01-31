@@ -13,7 +13,7 @@ function evaluateGuess(guess, correctAnswer) {
         console.log('Correct!')
         return 'Correct!'
     } else console.log('Incorrect!')
-        return 'Incorrect!'
+    return 'Incorrect!'
 }
 
 module.exports = {
