@@ -4,16 +4,13 @@ function createCard(id, question, answers, correctAnswer) {
         question: question,
         answers: answers,
         correctAnswer: correctAnswer
-    }
-    return card
+    }; return card
 }
 
 function evaluateGuess(guess, correctAnswer) {
     if (guess === correctAnswer) {
-        console.log('Correct!')
         return 'Correct!'
-    } else console.log('Incorrect!')
-    return 'Incorrect!'
+    } else return 'Incorrect!'
 }
 
 module.exports = {

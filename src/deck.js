@@ -1,5 +1,7 @@
 function createDeck(cards) {
-    return cards
+    let deck = []
+    cards.forEach((card) => { deck.push(card) })
+    return deck
 }
 
 function countCards(deck) {
