@@ -31,9 +31,9 @@ function calculatePercentCorrect(round) {
 
 function endRound(round) {
     if (round.turns === round.deck.length) {
-    percent = calculatePercentCorrect(round)
-    console.log(`** Round over! ** You answered ${percent}% of the questions correctly!`)
-    return `** Round over! ** You answered ${percent}% of the questions correctly!`
+        percent = calculatePercentCorrect(round)
+        console.log(`** Round over! ** You answered ${percent}% of the questions correctly!`)
+        return 'Round is Over'
     }
 }
 

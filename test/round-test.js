@@ -82,6 +82,6 @@ describe('round', function() {
         const anotherTurn = takeTurn('Spokane', round)
         const anotherTurn2 = takeTurn('three', round)
 
-        expect(endRound(round)).to.equal('** Round over! ** You answered 67% of the questions correctly!')
+        expect(endRound(round)).to.equal('Round is Over')
     })
     })
